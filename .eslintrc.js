@@ -184,5 +184,6 @@ module.exports = {
     'array-bracket-spacing': [2, 'never'],
     'quote-props': ['error', 'as-needed'],
     'no-case-declarations': 0,
+    'no-prototype-builtins': 0,
   },
 };

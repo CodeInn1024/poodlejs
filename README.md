@@ -4,7 +4,7 @@
  * @Autor: lqrui
  * @Date: 2020-11-19 13:47:01
  * @LastEditors: lqrui.cn
- * @LastEditTime: 2020-11-19 15:58:02
+ * @LastEditTime: 2020-11-19 15:58:48
 -->
 
 # poodlejs
@@ -18,7 +18,7 @@ npm i poodlejs
 ```
 ## 使用
 
-### vue中使用
+### vue 中使用
 ```js
 import poodlejs from 'poodlejs';
 Vue.prototype.$poodlejs = poodlejs;
