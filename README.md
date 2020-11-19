@@ -4,7 +4,7 @@
  * @Autor: lqrui
  * @Date: 2020-11-19 13:47:01
  * @LastEditors: lqrui.cn
- * @LastEditTime: 2020-11-19 15:55:50
+ * @LastEditTime: 2020-11-19 15:58:02
 -->
 
 # poodlejs
@@ -13,13 +13,13 @@
 ## 安装
 
 ### npm（推荐方式）
-```
+```bash
 npm i poodlejs
 ```
 ## 使用
 
 ### vue中使用
-```
+```js
 import poodlejs from 'poodlejs';
 Vue.prototype.$poodlejs = poodlejs;
 ```
