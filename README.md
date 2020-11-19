@@ -4,10 +4,10 @@
  * @Autor: lqrui
  * @Date: 2020-11-19 13:47:01
  * @LastEditors: lqrui.cn
- * @LastEditTime: 2020-11-19 13:49:25
+ * @LastEditTime: 2020-11-19 15:55:50
 -->
 
-# Vue-ECharts
+# poodlejs
 一个简单的模块化JavaScript 实用工具库
 
 ## 安装
@@ -15,4 +15,11 @@
 ### npm（推荐方式）
 ```
 npm i poodlejs
+```
+## 使用
+
+### vue中使用
+```
+import poodlejs from 'poodlejs';
+Vue.prototype.$poodlejs = poodlejs;
 ```
