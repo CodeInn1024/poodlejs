@@ -1,0 +1,32 @@
+{
+  "name": "poodlejs",
+  "version": "1.0.0",
+  "description": "一个简单的模块化JavaScript 实用工具库",
+  "main": "dist/lib/poodle.js",
+  "unpkg": "dist/umd/poodle.js",
+  "module": "dist/es/poodle.js",
+  "scripts": {
+    "build": "father build",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeInn1024/poodlejs.git"
+  },
+  "keywords": [
+    "javaScript"
+  ],
+  "author": "lqrui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeInn1024/poodlejs/issues"
+  },
+  "homepage": "https://github.com/CodeInn1024/poodlejs#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "father": "^2.29.11"
+  },
+  "dependencies": {
+
+  }
+}
