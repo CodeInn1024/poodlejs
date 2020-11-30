@@ -4,10 +4,10 @@
  * @Autor: lqrui
  * @Date: 2020-11-19 11:42:26
  * @LastEditors: lqrui.cn
- * @LastEditTime: 2020-11-19 11:58:13
+ * @LastEditTime: 2020-11-30 11:57:15
  */
 
-function getParams(url = '', arrayFormat) {
+export function getParams(url = '', arrayFormat) {
   const _a = {};
   if (url.indexOf('?') === -1) return _a;
   const _str = url.substring(url.indexOf('?') + 1);
@@ -17,5 +17,3 @@ function getParams(url = '', arrayFormat) {
   });
   return _a;
 }
-
-export default getParams;

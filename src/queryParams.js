@@ -4,10 +4,10 @@
  * @Autor: lqrui
  * @Date: 2020-11-19 10:01:19
  * @LastEditors: lqrui.cn
- * @LastEditTime: 2020-11-19 11:42:36
+ * @LastEditTime: 2020-11-30 11:57:24
  */
 
-function queryParams(data = {}, arrayFormat) {
+export function queryParams(data = {}, arrayFormat) {
   const _result = [];
 
   for (const key in data) {
@@ -42,5 +42,3 @@ function queryParams(data = {}, arrayFormat) {
   }
   return _result.length ? _result.join('&') : '';
 }
-
-export default queryParams;

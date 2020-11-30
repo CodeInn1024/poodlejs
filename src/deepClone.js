@@ -4,10 +4,10 @@
  * @Autor: lqrui
  * @Date: 2020-11-19 16:03:06
  * @LastEditors: lqrui.cn
- * @LastEditTime: 2020-11-19 16:07:44
+ * @LastEditTime: 2020-11-30 11:54:43
  */
 
-function deepClone(obj) {
+export function deepClone(obj) {
   if (!obj) return obj;
   if (typeof obj !== 'object' && typeof obj !== 'function') return obj;
   const _a = Array.isArray(obj) ? [] : {};
@@ -18,5 +18,3 @@ function deepClone(obj) {
   }
   return _a;
 }
-
-export default deepClone;
