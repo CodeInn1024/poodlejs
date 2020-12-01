@@ -1,6 +1,6 @@
 {
   "name": "poodlejs",
-  "version": "1.0.8",
+  "version": "1.0.12",
   "description": "一个简单的模块化JavaScript 实用工具库",
   "main": "dist/lib/poodle.js",
   "unpkg": "dist/umd/poodle.js",
