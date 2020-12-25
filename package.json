@@ -1,6 +1,6 @@
 {
   "name": "poodlejs",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "一个简单的模块化JavaScript 实用工具库",
   "main": "index.js",
   "scripts": {
